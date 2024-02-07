@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Formular SYSTEM "Feedback.dtd">
+
+<Formular Datum="10.12.2022" Uhrzeit="14:56"><Person><Anrede>Herr</Anrede><Vorname>Peter</Vorname><Nachname>Müller</Nachname><Datum>10.12.2022</Datum><Uhrzeit>14:56</Uhrzeit><Alter>42</Alter></Person><Kontakt><E-Mail>peter.Mueller@gmail.com</E-Mail><Kopie_erstellen>nein</Kopie_erstellen><Zurückmelden>nein</Zurückmelden></Kontakt><Feedback><Verbesserungen>Die Seite ist einfach komplett schlecht</Verbesserungen><Erneut_besuchen>nein</Erneut_besuchen><Aufmerksam>fernsehen</Aufmerksam><Inhalt_bewertung>6</Inhalt_bewertung><Aussehen_bewertung>5</Aussehen_bewertung></Feedback></Formular>

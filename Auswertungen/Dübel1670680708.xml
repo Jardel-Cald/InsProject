@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Formular SYSTEM "Feedback.dtd">
+<Formular Datum="10.12.2022" Uhrzeit="14:58">
+	<Person>
+		<Anrede>Herr</Anrede>
+		<Vorname>Arno</Vorname>
+		<Nachname>Dübel</Nachname>
+		<Datum>10.12.2022</Datum>
+		<Uhrzeit>14:58</Uhrzeit>
+		<Alter>61</Alter>
+	</Person>
+	<Kontakt>
+		<E-Mail>abc@gmail.com</E-Mail>
+		<Telefonnummer>232652</Telefonnummer>
+		<Webseite>https://www.tutorialspoint.com/xerces/xerces_dom_create_document.htm</Webseite>
+		<Kopie_erstellen>ja</Kopie_erstellen>
+		<Zurückmelden>nein</Zurückmelden>
+	</Kontakt>
+	<Feedback>
+		<Erneut_besuchen>ja</Erneut_besuchen>
+		<Aufmerksam>zufall</Aufmerksam>
+		<Inhalt_bewertung>1</Inhalt_bewertung>
+		<Aussehen_bewertung>1</Aussehen_bewertung>
+	</Feedback>
+</Formular>

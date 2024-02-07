@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Startseite</title>
+    <link rel="stylesheet" type="text/css"
+          href="style.css">
+</head>
+<body>
+<nav>
+    <h3>Navigation</h3>
+    <ul>
+        <li>
+            <a href="index.html">Startseite</a>
+        </li>
+        <li>
+            <a href="lebenslauf.html" target="t2">Lebenslauf</a>
+        </li>
+        <li>
+            <a href="zeugnisse.html" target="t2">Zeugnisse</a>
+        </li>
+        <li>
+            <a href="kontakt.html" target="t2">Kontakt</a>
+        </li>
+        <li>
+            <a href="feedback.html" target="t2">Feedback</a>
+        </li>
+        <li>
+            <a href="feedbacks.php">Auswertung</a>
+        </li>
+    </ul>
+</nav>
+<hr>
+<div class="formular">
+    <form action="auswertung.php" method="get">
+    <table class="formularTabelle">
+
+        <tr>
+            <td>Anrede</td>
+            <td>
+                <select name="anrede" size="1">
+
+                    <option value="Dr" selected>Dr.</option>
+                    <option value="Prof" selected>Prof.</option>
+                    <option value="Frau" selected>Frau</option>
+                    <option value="Herr" selected>Herr</option>
+                </select>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Vorname</td>
+            <td><input type="text" name="vorname" style="width: 50%" required></td>
+        </tr>
+        <tr>
+            <td>Nachname</td>
+            <td><input type="text" name="nachname" style="width: 50%" autocomplete="on" required></td>
+        </tr>
+        <tr>
+            <td>Kopie an meine Mailbox senden</td>
+            <td><input type="checkbox" name="mail" value="ja"></td>
+        </tr>
+        <tr>
+            <td>E-mail</td>
+            <td><input type="email" name="emailadresse" style="width: 50%" placeholder="Emailadresse eingeben"></td>
+        </tr>
+        <tr>
+            <td>Ich stehe für evtl. Rückfragen zur Verfügung</td>
+            <td><input type="checkbox" name="kontakt"></td>
+        </tr>
+        <tr>
+            <td>Telefonnummer</td>
+            <td><input type="number" name="telefon" style="width: 50%"></td>
+        </tr>
+        <tr>
+            <td>Webseite</td>
+            <td><input type="url" name="website" style="width: 50%"></td>
+        </tr>
+        <tr>
+            <td>Alter</td>
+            <td><input type="number" name="alter" min="18" max="99" step="1" value="23" style="width: 15%"></td>
+        </tr>
+        <tr>
+            <td>Ich würde die Seite wieder besuchen</td>
+            <td><input type="checkbox" name="besuchen"></td>
+        </tr>
+        <tr>
+            <td>Ihre Verbesserungsvorschläge</td>
+            <td><textarea name="verbesserung" rows="3" cols="60"></textarea></td>
+        </tr>
+        <tr>
+            <td>Wie sind Sie auf diese Bewerbungsseite aufmerksam geworden?</td>
+            <td>
+                <select name="aufmerksam" size="1">
+                    <option value="" disabled selected hidden>--Bitte wählen--</option>
+                    <optgroup label="Allgemein">
+                        <option value="Zufall">Zufall</option>
+                        <option value="Freunde">Freunde/Bekannte</option>
+                        <option value="Präsentation">Präsentation/Vortrag</option>
+                        <option value="Fruehere Nutzung">Frühere Nutzung</option>
+                    </optgroup>
+                    <optgroup label="Internet-Angebote">
+                        <option value="Newsletter">Newsletter anderer Seiten</option>
+                        <option value="Suchmaschine">Suchmaschine</option>
+                        <option value="Linkliste">Linkliste</option>
+                        <option value="Forum">Forum/Gästebuch-Eintrag</option>
+                        <option value="Kostenlos">Kostenlos/Gratis-Seite</option>
+                    </optgroup>
+                    <optgroup label="Medien">
+                        <option value="Zeitung">Zeitung</option>
+                        <option value="Zeitschrift">Zeitschrift</option>
+                        <option value="Radio">Radio</option>
+                        <option value="Fernsehen">Fernsehen</option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+        <tr style="height: 20px;">
+            <td>"Welche Note würdest du allgemein dem Inhalt geben? (1 = sehr gut, 6 = ungenügend)</td>
+            <td>
+                <input type="radio" id="1" name="note" value="1">
+                <label for="1">1</label>
+                <input type="radio" id="2" name="note" value="2">
+                <label for="2">2</label>
+                <input type="radio" id="3" name="note" value="3">
+                <label for="3">3</label>
+                <input type="radio" id="4" name="note" value="4">
+                <label for="4">4</label>
+                <input type="radio" id="5" name="note" value="5">
+                <label for="5">5</label>
+                <input type="radio" id="6" name="note" value="6">
+                <label for="6">6</label>
+            </td>
+        </tr>
+        <tr>
+            <td>"Welche Note würdest du allgemein dem Aussehen geben? (1 = sehr gut, 6 = ungenügend)</td>
+            <td>
+                <input type="radio" id="a1" name="anote" value="1">
+                <label for="a1">1</label>
+                <input type="radio" id="a2" name="anote" value="2">
+                <label for="a2">2</label>
+                <input type="radio" id="a3" name="anote" value="3">
+                <label for="a3">3</label>
+                <input type="radio" id="a4" name="anote" value="4">
+                <label for="a4">4</label>
+                <input type="radio" id="a5" name="anote" value="5">
+                <label for="a5">5</label>
+                <input type="radio" id="a6" name="anote" value="6">
+                <label for="a6">6</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Passwort- / Spamschutz: Bitte gib Internetsprachen ein</td>
+            <td><input type="password" name="password" style="width: 50%"></td>
+        </tr>
+        <tr>
+            <td colspan=2><input type="submit" value="senden">
+            </td>
+        </tr>
+    </table>
+    </form>
+</div>
+
+</body>
+</html>

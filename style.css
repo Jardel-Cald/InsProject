@@ -1,0 +1,154 @@
+h1, h3 {
+    text-align: center;
+    color: white;
+    font-family: Sans-serif;
+}
+
+body {
+    background-color: #001a33;
+}
+
+div.empfaenger {
+    float: left;
+    margin-left: 200px;
+}
+
+div.sender {
+    float: right;
+    margin-right: 200px;
+
+}
+
+div.anschreiben {
+    background-color: #003566;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+div.anschreibenText {
+
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 160px;
+
+}
+
+
+
+p {
+    color: #d9d9d9;
+    text-align: justify;
+    font-family: Sans-serif;
+    font-size: 15pt;
+}
+
+@media only print {
+    nav.websiteansicht {
+        display: none;
+    }
+}
+
+nav {
+    color: #d9d9d9;
+    font-family: Sans-serif;
+    font-size: 15pt;
+}
+
+/*Navigation*/
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #003566;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #000d1a;
+}
+
+
+strong {
+    color: white;
+}
+
+td {
+    height: 40px;
+}
+tr:nth-child(even) {
+    background-color: #004280;
+}
+
+table {
+    color: white;
+    background-color: #003566;
+    font-family: Sans-serif;
+    font-size: 15pt;
+    width: 100%;
+}
+
+div.lebenslauf {
+    margin-right: 20%;
+    margin-left: 20%;
+
+}
+
+div.formular {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+table.formularTabelle {
+    background-color: #003566;
+    font-family: Sans-serif;
+    font-size: 15pt;
+
+    width: 100%;
+}
+
+table.kontakt {
+
+    color: white;
+    background-color: #003566;
+    font-family: Sans-serif;
+    font-size: 15pt
+}
+
+
+select {
+    background-color: #003566;
+    font-family: Sans-serif;
+    font-size: 15pt;
+    color: white;
+    border: 0px;
+    content: "";
+    width: 500px;
+    border-color: transparent;
+}
+
+fieldset {
+    margin-right: 20%;
+    margin-left: 20%;
+    width: 70%;
+    display: grid;
+
+}
+th {
+    height: 35px;
+}
+img.bewerbungsBild {
+    border-radius: 20px;
+    display: block;
+    margin-left: 43%;
+    margin-right: 43%;
+}

@@ -1,0 +1,22 @@
+<!ELEMENT Formular (Person, Kontakt, Feedback)>
+        <!ATTLIST Formular Datum CDATA #REQUIRED>
+        <!ATTLIST Formular Uhrzeit CDATA #REQUIRED>
+        <!ELEMENT Person (Anrede,Vorname,Nachname, Datum, Uhrzeit,Alter)>
+        <!ELEMENT Anrede (#PCDATA)>
+        <!ELEMENT Vorname (#PCDATA)>
+        <!ELEMENT Nachname (#PCDATA)>
+        <!ELEMENT Alter (#PCDATA)>
+        <!ELEMENT Datum (#PCDATA)>
+        <!ELEMENT Uhrzeit (#PCDATA)>
+        <!ELEMENT Kontakt (E-Mail?,Telefonnummer?,Webseite?,Kopie_erstellen,Zurückmelden)>
+        <!ELEMENT E-Mail (#PCDATA)>
+        <!ELEMENT Telefonnummer (#PCDATA)>
+        <!ELEMENT Webseite (#PCDATA)>
+        <!ELEMENT Kopie_erstellen (#PCDATA)>
+        <!ELEMENT Zurückmelden (#PCDATA)>
+        <!ELEMENT Feedback (Verbesserungen?,Erneut_besuchen,Aufmerksam,Inhalt_bewertung,Aussehen_bewertung)>
+        <!ELEMENT Verbesserungen (#PCDATA)>
+        <!ELEMENT Erneut_besuchen (#PCDATA)>
+        <!ELEMENT Aufmerksam (#PCDATA)>
+        <!ELEMENT Inhalt_bewertung (#PCDATA)>
+        <!ELEMENT Aussehen_bewertung (#PCDATA)>

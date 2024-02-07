@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Formular SYSTEM "Feedback.dtd">
+<Formular Datum="22.12.2022" Uhrzeit="11:45"><Person><Anrede>Herr</Anrede><Vorname>Andreas</Vorname><Nachname>Cramer</Nachname><Datum>22.12.2022</Datum><Uhrzeit>11:45</Uhrzeit><Alter>23</Alter></Person><Kontakt><E-Mail>a@b.c</E-Mail><Kopie_erstellen>ja</Kopie_erstellen><Zurückmelden>nein</Zurückmelden></Kontakt><Feedback><Erneut_besuchen>nein</Erneut_besuchen><Aufmerksam/><Inhalt_bewertung>6</Inhalt_bewertung><Aussehen_bewertung>1</Aussehen_bewertung></Feedback></Formular>
